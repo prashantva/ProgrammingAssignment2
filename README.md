@@ -21,7 +21,7 @@ function in R. For example, if `X` is a square invertible matrix, then
 
 For this assignment, it was assumed that the matrix supplied is invertible.
 
-Task done for this assignment were as follows
+Task done for this assignment were as follows:
 
 1.  Forked the GitHub repository containing the stub R files at
     [https://github.com/rdpeng/ProgrammingAssignment2]
@@ -33,7 +33,7 @@ Task done for this assignment were as follows
     solution in that file.
     
 4.  Committed my completed R file into my git repository and pushed my
-    git branch to the GitHub repository under mt account prashantva.
+    git branch to the GitHub repository under my account prashantva.
     
 5.  Submitted to Coursera the URL to your GitHub repository that contains
     the completed R code for the assignment.
