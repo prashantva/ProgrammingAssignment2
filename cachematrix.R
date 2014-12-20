@@ -12,6 +12,12 @@
 ## OR it just takes it from the cache, if the inverse has already been computed.
 
 #===============================================================================
+## Typical use:
+#===============================================================================
+## X<-matrix(c(1, 2, 3, 4), 2, 2) # create a matrix
+## Y<-makeCacheMatrix(X) # create the object Y that contains a list of functions
+## cacheSolve(Y)
+#===============================================================================
 
 ## DESCRIPTION OF THE FUNCTION "makeCacheMatrix"
 ## The function makeCacheMatrix take a square matrix X as the input 
@@ -67,6 +73,9 @@ makeCacheMatrix <- function(X = matrix())
       
       # ------------------------------------------------------------------------
 }
+
+
+
 
 #===============================================================================
 
