@@ -1,6 +1,6 @@
 #===============================================================================
 
-#  OVERALL DESCRIPTION THE FUNCTIONS IN THIS FILE:
+#  OVERALL DESCRIPTION OF THE FUNCTIONS IN THIS FILE:
 
 #===============================================================================
 
@@ -69,14 +69,15 @@ makeCacheMatrix <- function(X = matrix())
 }
 
 #===============================================================================
-# Description of the function "cacheSolve"
-#===============================================================================
+
+# OVERALL DESCRIPTION OF THE FUNCTION "cacheSolve"
 
 ## The function "cacheSolve" take the object created using the function 
 ## makeCacheMatrix as the input.
 ## If the inverse of the matrix is not computed then it is computed.
 ## If the inverse of the matrix already computed then it is not computed again,
 ## but rather it is accessed from the stored value in the cache.
+
 #===============================================================================
 
 cacheSolve <- function(Y, ...) 
